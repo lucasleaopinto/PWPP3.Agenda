@@ -1,0 +1,15 @@
+/Users/lucaspinto/Projects/Contatos/Contatos/bin/Debug/netstandard2.0/Contatos.deps.json
+/Users/lucaspinto/Projects/Contatos/Contatos/bin/Debug/netstandard2.0/Contatos.dll
+/Users/lucaspinto/Projects/Contatos/Contatos/bin/Debug/netstandard2.0/ref/Contatos.dll
+/Users/lucaspinto/Projects/Contatos/Contatos/bin/Debug/netstandard2.0/Contatos.pdb
+/Users/lucaspinto/Projects/Contatos/Contatos/obj/Debug/netstandard2.0/Contatos.csprojAssemblyReference.cache
+/Users/lucaspinto/Projects/Contatos/Contatos/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/lucaspinto/Projects/Contatos/Contatos/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/lucaspinto/Projects/Contatos/Contatos/obj/Debug/netstandard2.0/Contatos.AssemblyInfoInputs.cache
+/Users/lucaspinto/Projects/Contatos/Contatos/obj/Debug/netstandard2.0/Contatos.AssemblyInfo.cs
+/Users/lucaspinto/Projects/Contatos/Contatos/obj/Debug/netstandard2.0/Contatos.csproj.CoreCompileInputs.cache
+/Users/lucaspinto/Projects/Contatos/Contatos/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/lucaspinto/Projects/Contatos/Contatos/obj/Debug/netstandard2.0/Contatos.dll
+/Users/lucaspinto/Projects/Contatos/Contatos/obj/Debug/netstandard2.0/ref/Contatos.dll
+/Users/lucaspinto/Projects/Contatos/Contatos/obj/Debug/netstandard2.0/Contatos.pdb
+/Users/lucaspinto/Projects/Contatos/Contatos/obj/Debug/netstandard2.0/PagePessoa.xaml.g.cs
