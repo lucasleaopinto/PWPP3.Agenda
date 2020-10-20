@@ -6,18 +6,32 @@
     <ContentPage.Content>
         <StackLayout Padding="10,20,10,10"
                      Orientation="Vertical">
-            <Label Text="Código" FontSize="Small"/>
-            <Entry Text="{Binding ID}"/>
+            <!--<Label Text="Código" FontSize="Small"/>
+            <Entry Text="{Binding ID}"/>-->
             <Label Text="Nome" FontSize="Small"/>
             <Entry Text="{Binding  Nome}" />
             <Label Text="Telefone" FontSize="Small"/>
-            <Entry Text="{Binding Telefone}"/>
+            <Entry Text="{Binding Telefone}" Keyboard="Telephone"/>
+            <Label Text="Telefone Adicional" FontSize="Small"/>
+            <Entry Text="{Binding Telefone2}" Keyboard="Telephone"/> 
             <Label Text="email" FontSize="Small"/>
-            <Entry Text="{Binding email}"/>
+            <Entry Text="{Binding email}" Keyboard="Email"/>
+            <Picker x:Name="pickerGrupo"
+                    Title="Grupo"
+                    TitleColor="Black">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Amigos</x:String>
+                        <x:String>Familia</x:String>
+                        <x:String>Trabalho</x:String>
+                        <x:String>Comercial</x:String>
+                    </x:Array>
+              </Picker.ItemsSource>
+            </Picker>
+            <Label Text="{Binding Source={x:Reference pickerGrupo}, Path=SelectedItem}" />
+
             <Button Text="Salvar" FontSize="10" WidthRequest="70"
                     Clicked="onSalvePessoa" x:Name="btnSalvar"/>
-
-            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
