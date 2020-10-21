@@ -8,17 +8,18 @@
                      Orientation="Vertical">
             <!--<Label Text="Código" FontSize="Small"/>
             <Entry Text="{Binding ID}"/>-->
-            <Label Text="Nome" FontSize="Small"/>
-            <Entry Text="{Binding  Nome}" />
-            <Label Text="Telefone" FontSize="Small"/>
+            <Label Text="Nome" TextColor="BlueViolet"/>
+            <Entry Text="{Binding  Nome}"/>
+            <Label Text="Telefone" TextColor="BlueViolet"/>
             <Entry Text="{Binding Telefone}" Keyboard="Telephone"/>
-            <Label Text="Telefone Adicional" FontSize="Small"/>
+            <Label Text="Telefone Adicional" TextColor="BlueViolet"/>
             <Entry Text="{Binding Telefone2}" Keyboard="Telephone"/> 
-            <Label Text="email" FontSize="Small"/>
+            <Label Text="email" TextColor="BlueViolet"/>
             <Entry Text="{Binding email}" Keyboard="Email"/>
             <Picker x:Name="pickerGrupo"
                     Title="Grupo"
-                    TitleColor="Black">
+                    TitleColor="Black"
+                    Margin="5">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Amigos</x:String>
@@ -28,10 +29,10 @@
                     </x:Array>
               </Picker.ItemsSource>
             </Picker>
-            <Label Text="{Binding Source={x:Reference pickerGrupo}, Path=SelectedItem}" />
+            <!--<Label Text="{Binding Source={x:Reference pickerGrupo}, Path=SelectedItem}" />-->
 
-            <Button Text="Salvar" FontSize="10" WidthRequest="70"
-                    Clicked="onSalvePessoa" x:Name="btnSalvar"/>
+            <Button Text="Salvar" FontSize="20" WidthRequest="70" TextColor="White"
+                    Clicked="onSalvePessoa" x:Name="btnSalvar" BackgroundColor="BlueViolet"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
