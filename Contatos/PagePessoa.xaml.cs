@@ -20,15 +20,14 @@ namespace Contatos
             //App.Database.SaveItemAsync(p);
             //Navigation.PopAsync();
 
-            Console.WriteLine("String s3 {0}.", String.IsNullOrEmpty(p.Nome));
             if (String.IsNullOrEmpty(p.Nome))
             {
-                DisplayAlert("Notificacao", "Preencha o nome", "ok");
+                DisplayAlert("Atenção", "O nome não pode ser vázio", "ok");
             }
             else
             {
-                //App.Database.SaveItemAsync(p);
-                //Navigation.PopAsync();
+                App.Database.SaveItemAsync(p);
+                Navigation.PopAsync();
 
             }
 

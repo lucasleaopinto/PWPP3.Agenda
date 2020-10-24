@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ig3Moew59mbvCn9ynE7DSaKRvHkH6hPBLDhndi29jYDm2TSutPnL0S4CC7csnJDLhIVligjA/mKPQlgH1vEBZw==",
+  "dgSpecHash": "8GKOXYnEV7lN5BgNO1eZwmGI6HrBbXYPREOS3y3I61zRbZD4uNNKFHJ4R6wzacbHwYkt42eyGBjKaA/TWAj+mQ==",
   "success": true,
   "projectFilePath": "/Users/lucaspinto/Projects/Contatos/Contatos/Contatos.csproj",
   "expectedPackageFiles": [
@@ -16,7 +16,8 @@
     "/Users/lucaspinto/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/lucaspinto/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "/Users/lucaspinto/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/lucaspinto/.nuget/packages/xamarin.forms/4.8.0.1451/xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "/Users/lucaspinto/.nuget/packages/xamarin.forms/4.8.0.1560/xamarin.forms.4.8.0.1560.nupkg.sha512",
+    "/Users/lucaspinto/.nuget/packages/xamarin.forms.behaviorvalidationpack/1.1.1/xamarin.forms.behaviorvalidationpack.1.1.1.nupkg.sha512"
   ],
   "logs": []
 }

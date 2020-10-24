@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{E161A678-3F12-4D7D-9EB3-BB898E178ADD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Contatos/MainPage.xaml">
+    <Files>
+      <File FileName="ContentPessoa.cs" Line="14" Column="1" IsPinned="True" />
+      <File FileName="Contatos/IFileHelper.cs" IsPinned="True" />
+      <File FileName="Contatos/MainPage.xaml.cs" />
+      <File FileName="Contatos/MainPage.xaml" Line="35" Column="31" />
+      <File FileName="Contatos/Pessoa.cs" />
+      <File FileName="Contatos/App.xaml.cs" />
+      <File FileName="Contatos/PagePessoa.xaml" />
+      <File FileName="Contatos/PagePessoa.xaml.cs" />
+      <File FileName="Contatos/App.xaml" />
+      <File FileName="Contatos/PessoaItemDatabase.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Contatos" expanded="True">
+            <Node name="Contatos" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="PagePessoa.xaml" expanded="True" />
+            </Node>
+            <Node name="Contatos.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Contatos.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A1610E54-794A-4AC4-805E-758FF3802711" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Contatos.Android PreferredExecutionTarget="Android.Nexus_6" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/Microsoft.Common.CurrentVersion.targets" line="2101" column="5" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

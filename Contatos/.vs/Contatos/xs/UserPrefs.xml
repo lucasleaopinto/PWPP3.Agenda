@@ -1,0 +1,31 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="PagePessoa.xaml.cs">
+    <Files>
+      <File FileName="PagePessoa.xaml.cs" Line="13" Column="1" />
+      <File FileName="App.xaml" />
+      <File FileName="PagePessoa.xaml" />
+      <File FileName="MainPage.xaml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Contatos" expanded="True">
+            <Node name="Contatos" expanded="True">
+              <Node name="PagePessoa.xaml" expanded="True">
+                <Node name="PagePessoa.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/lucaspinto/Projects/Contatos/Contatos/PagePessoa.xaml.cs" relfile="PagePessoa.xaml.cs" line="12" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

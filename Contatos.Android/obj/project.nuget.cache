@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "03vBcLWSJWyumatRlrkCEck1H/XfF0Btl6wGOJNQYQ2ySFBANTznbS7vIVZ+t+t/jSNPVMYU6DYcFwuEthb6zQ==",
+  "dgSpecHash": "fvO8x2DnCUmHOyVSmwwAm7ZLXQWVGhiohxNt6BrecDnT69HP6Ptud1cdje8GvP8E5YU5eoHYJRmHyNK0ROzK3g==",
   "success": true,
   "projectFilePath": "/Users/lucaspinto/Projects/Contatos/Contatos.Android/Contatos.Android.csproj",
   "expectedPackageFiles": [
@@ -50,14 +50,15 @@
     "/Users/lucaspinto/.nuget/packages/xamarin.android.support.versionedparcelable/28.0.0.3/xamarin.android.support.versionedparcelable.28.0.0.3.nupkg.sha512",
     "/Users/lucaspinto/.nuget/packages/xamarin.android.support.viewpager/28.0.0.3/xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
     "/Users/lucaspinto/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/lucaspinto/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "/Users/lucaspinto/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512",
+    "/Users/lucaspinto/.nuget/packages/xamarin.forms.behaviorvalidationpack/1.1.1/xamarin.forms.behaviorvalidationpack.1.1.1.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 4.8.0.1451 to 4.6.0.1141. Reference the package directly from the project to select a different version. \n Contatos.Android -> Contatos -> Xamarin.Forms (>= 4.8.0.1451) \n Contatos.Android -> Xamarin.Forms (>= 4.6.0.1141)",
+      "message": "Detected package downgrade: Xamarin.Forms from 4.8.0.1560 to 4.6.0.1141. Reference the package directly from the project to select a different version. \n Contatos.Android -> Contatos -> Xamarin.Forms (>= 4.8.0.1560) \n Contatos.Android -> Xamarin.Forms (>= 4.6.0.1141)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "MonoAndroid,Version=v9.0"

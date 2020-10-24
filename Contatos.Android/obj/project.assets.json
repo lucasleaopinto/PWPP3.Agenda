@@ -877,12 +877,25 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.BehaviorValidationPack/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.0.0.709238"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.BehaviorValidationPack.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.BehaviorValidationPack.dll": {}
+        }
+      },
       "Contatos/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1451",
+          "Xamarin.Forms": "4.8.0.1560",
+          "Xamarin.Forms.BehaviorValidationPack": "1.1.1",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -2150,6 +2163,18 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.BehaviorValidationPack/1.1.1": {
+      "sha512": "MpTTek+d3NfkaGJNAU0xj+MjuPMlBAUcNJWKqR3q7oZztJJoMb91AHY7yE3GoBlI4IzSDwhq4qxIaQzMdTCPTA==",
+      "type": "package",
+      "path": "xamarin.forms.behaviorvalidationpack/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Xamarin.Forms.BehaviorValidationPack.dll",
+        "xamarin.forms.behaviorvalidationpack.1.1.1.nupkg.sha512",
+        "xamarin.forms.behaviorvalidationpack.nuspec"
+      ]
+    },
     "Contatos/1.0.0": {
       "type": "project",
       "path": "../Contatos/Contatos.csproj",
@@ -2215,7 +2240,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 4.8.0.1451 to 4.6.0.1141. Reference the package directly from the project to select a different version. \n Contatos.Android -> Contatos -> Xamarin.Forms (>= 4.8.0.1451) \n Contatos.Android -> Xamarin.Forms (>= 4.6.0.1141)",
+      "message": "Detected package downgrade: Xamarin.Forms from 4.8.0.1560 to 4.6.0.1141. Reference the package directly from the project to select a different version. \n Contatos.Android -> Contatos -> Xamarin.Forms (>= 4.8.0.1560) \n Contatos.Android -> Xamarin.Forms (>= 4.6.0.1141)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "MonoAndroid,Version=v9.0"

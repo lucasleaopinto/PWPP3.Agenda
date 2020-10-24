@@ -29,7 +29,10 @@
         </ListView>
             <Button Text="Adicionar"
                     Clicked="OnClicked"
-                    x:Name="btnAdd">
+                    x:Name="btnAdd"
+                    BackgroundColor="BlueViolet"
+                    TextColor="White"
+                    Margin="10">
             </Button>
 
         

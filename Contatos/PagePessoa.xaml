@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:behaviorPack="clr-namespace:Xamarin.Forms.BehaviorValidationPack;assembly=Xamarin.Forms.BehaviorValidationPack"
              x:Class="Contatos.PagePessoa"
              Title="Dados">
     <ContentPage.Content>
@@ -10,17 +11,36 @@
             <Entry Text="{Binding ID}"/>-->
             <Label Text="Nome" TextColor="BlueViolet"/>
             <Entry Text="{Binding  Nome}"/>
-            <Label Text="Telefone" TextColor="BlueViolet"/>
-            <Entry Text="{Binding Telefone}" Keyboard="Telephone"/>
-            <Label Text="Telefone Adicional" TextColor="BlueViolet"/>
-            <Entry Text="{Binding Telefone2}" Keyboard="Telephone"/> 
+
+            <Label Text="Celular" TextColor="BlueViolet"/>
+            <!--<Entry Text="{Binding Telefone}" Keyboard="Telephone"/>-->
+            <Entry Placeholder="Digite número do Celular" TextColor="Black" Text="{Binding Celular}">
+                <Entry.Behaviors>
+                    <behaviorPack:MaskedBehavior Mask="(XX) X XXXX-XXXX"/>
+                </Entry.Behaviors>
+            </Entry>
+
+            <Label Text="Telefone" TextColor="BlueViolet" />
+            <Entry Placeholder="Digite número" TextColor="Black" Text="{Binding Telefone}">
+                <Entry.Behaviors>
+                    <behaviorPack:MaskedBehavior Mask="(XX) XXXX-XXXX"/>
+                </Entry.Behaviors>
+            </Entry>
+            <!--<Entry Text="{Binding Telefone2}" Keyboard="Telephone"/>--> 
+
             <Label Text="email" TextColor="BlueViolet"/>
-            <Entry Text="{Binding email}" Keyboard="Email"/>
+            <Entry Placeholder="Digite o e-mail" TextColor="Black" Text="{Binding Email}">
+                <Entry.Behaviors>
+                    <behaviorPack:EmailValidationBehavior />
+                </Entry.Behaviors>
+            </Entry>
+            <!--<Entry Text="{Binding email}" Keyboard="Email"/>-->
+
             <Picker x:Name="pickerGrupo"
-                    Title="Grupo"
+                    Title="{Binding Grupo}"
                     TitleColor="Black"
                     Margin="5">
-                <Picker.ItemsSource>
+                <Picker.ItemsSource Text="{Binding grupo, Path=SelectedItem}" Placeholder="Selecione um Grupo">
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Amigos</x:String>
                         <x:String>Familia</x:String>
@@ -29,10 +49,12 @@
                     </x:Array>
               </Picker.ItemsSource>
             </Picker>
-            <!--<Label Text="{Binding Source={x:Reference pickerGrupo}, Path=SelectedItem}" />-->
+            <!--<Label Text="{Binding Grupo, Path=SelectedItem}" />-->
 
             <Button Text="Salvar" FontSize="20" WidthRequest="70" TextColor="White"
                     Clicked="onSalvePessoa" x:Name="btnSalvar" BackgroundColor="BlueViolet"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
+
+<!--https://www.xamarinhelp.com/masked-entry-in-xamarin-forms/-->
